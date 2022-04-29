@@ -1,0 +1,25 @@
+import React from 'react';
+import { Link, useNavigate } from 'react-router-dom';
+import './Product.css'
+
+const Product = ({ product }) => {
+    const { id, name, img, price, discription, quantity } = product;
+    const navigate = useNavigate();
+    const handleManage = id => {
+        navigate(`/product/${id}`)
+    }
+    return (
+        <div className='product-container mt-5 mx-auto w-100'>
+            <img className='img' src={img} alt=''></img>
+            <div className='product-info mt-3 ms-3'>
+                <h5>Name:{name}</h5>
+                <p>Price:{price}</p>
+                <p>Quantity:{quantity}</p>
+                <p>Discr:{discription}</p>
+                <button className='btn btn-primary' onClick={() => handleManage(id)}>Manage</button>
+            </div>
+        </div>
+    );
+};
+
+export default Product;

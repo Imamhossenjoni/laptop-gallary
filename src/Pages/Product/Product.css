@@ -1,0 +1,11 @@
+.img{
+    height: 200px;
+    width: 350px;
+}
+.product-container{
+    border: 1px solid gray;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    border-radius: 10px;
+}

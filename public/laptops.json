@@ -1,0 +1,56 @@
+[
+    {
+        "name":"Lenovo IdeaPad Slim 3",
+        "img":"https://i.ibb.co/j62hgVf/a-3-500x500.webp",
+        "discription":"The device is an entry-level laptop that comes with a powerful AMD Ryzen 7 4700U Mobile Processor along with discrete AMD Radeon graphics options. It allows you to perform tasks with good speed and multitask without any lags.",
+        "price":"$559.99",
+        "quantity":"30",
+        "supplier-name":"",
+        "id":1
+    },
+    {
+        "name":"Lenovo Yoga 6 13ALC6",
+        "img":"https://i.ibb.co/Y8f.../96ba9fffa272c7acc8b8d4df940ce189.png",
+        "discription":"Processor AMD Ryzen 5 5500U (2.1 to 4GHz, 3MB Cache, 6C/12T) Display: 13.3 FHD (1920 x 1080) IPS, 300 nits, 72% NTSC, 10-point. multi-touch, AAR 88% Display.Memory: 16GB DDR4 RAM.Storage: 512GB NVMe SSD.Graphics: AMD Radeon Graphics",
+        "price":107500,
+        "quantity":"10",
+        "supplier-name":"",
+        "id":2
+    },
+    {
+        "name":"Lenovo IdeaPad",
+        "img":"https://i.ibb.co/d6SD3Dg/ip-slim-15-228x228.jpg",
+        "discription":"The Lenovo IdeaPad Slim 3i powered by Intel Core i3-1005G1 Processor (4M Cache,1.20 GHz up to 3.40 GHz, 4 MB Cache, 4 Threads) with Intel UHD Graphics. This 10th Gen Intel Core processors and discrete graphics options fuel speedy performance, easy multitasking, and great entertainment experience.",
+        "price":43800,
+        "quantity":"50",
+        "supplier-name":"",
+        "id":3
+    },
+    {
+        "name":"Lenovo V310 (15)",
+        "img":"https://i.ibb.co/7k88d7B/lenovo-laptop-v310-15-cover-1.webp",
+        "discription":"The Lenovo V310 is designed to meet all of your business needs, including budget. It's very configurable and has a range of options, from state-of-the-art processing to a flexible dual storage system. Plus, with its optional battery feature, this portable laptop can keep going for up to 12 hours.",
+        "price":42500,
+        "quantity":"15",
+        "supplier-name":"",
+        "id":4
+    },
+    {
+        "name":"Lenovo IdeaPad Slim 3i",
+        "img":"https://i.ibb.co/SrthDJV/ideapad-slim-3i-8-228x228.jpg",
+        "discription":"The Lenovo IdeaPad Slim 3i 15IGL comes with Intel Celeron N4020 (4M Cache, 1.10 GHz up to 2.80 GHz) and 4GB DDR4 2400MHz RAM. It also comes with a 1TB 5400rpm 2.5 HDD to store all your important data. It is integrated with Integrated Intel UHD Graphics 600 and it has a 15.6 HD ",
+        "price":48990,
+        "quantity":"20",
+        "supplier-name":"",
+        "id":5
+    },
+    {
+        "name":"IdeaPad 5i",
+        "img":"https://i.ibb.co/RyyH4x5/lenovo-laptops-ideapad-5-15in-intel-hero.webp",
+        "discription":"The IdeaPad 5i (15) Intel boasts an enticing list of included and optional features, making it a powerful combination of performance, connectivity, and entertainment with up to 10th Gen Intel® Core™ i7 processing. Enjoy crisp visuals on the 15 FHD display along with the rich sound of user-facing, Dolby Audio™-tuned speakers.",
+        "price":52500,
+        "quantity":"15",
+        "supplier-name":"",
+        "id":6
+    }
+]
