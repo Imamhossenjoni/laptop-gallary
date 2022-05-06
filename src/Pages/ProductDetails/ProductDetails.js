@@ -3,16 +3,16 @@ import { useParams } from 'react-router-dom';
 
 const ProductDetails = () => {
     const {productId}=useParams();
-    const [product,setProduct]=useState();
+    const [product,setProduct]=useState({});
     useEffect(()=>{
-        const url=`lap`
+        const url=`http://localhost:5000/laptops/${productId}`
         fetch(url)
         .then(res=>res.json())
         .then(data=>setProduct(data));
     },[])
     return (
         <div>
-            <h1>WelCome to my Product:{productId}</h1>
+            <h1>Your selected product is :{product.name} </h1>
         </div>
     );
 };

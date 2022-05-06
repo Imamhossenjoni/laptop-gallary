@@ -5,14 +5,14 @@ import './Products.css'
 const Products = () => {
     const [products,setProducts]=useState([]);
     useEffect(()=>{
-        fetch('laptops.json')
+        fetch('http://localhost:5000/laptops')
         .then(res=>res.json())
         .then(data=>setProducts(data));
     },[])
     return (
         <div className='products-container'>
            {
-               products.map(product=><Product key={product.id}
+               products.map(product=><Product key={product._id}
                product={product}
                ></Product>)
            }
