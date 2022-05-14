@@ -49,9 +49,7 @@ const Login = () => {
             <div className='spinner-border text-primary'></div>
         </div>
     }
-    // if (user) {
-    //     navigate(from, { replace: true });
-    // }
+    
     //handle navigate register
     const navigateRegister = (event) => {
         navigate('/register')
