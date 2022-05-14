@@ -1,6 +1,6 @@
-# Live Watch Site Link : 
-# Client Side Github Link:
-# Server Side Github Link :
+# Live Watch Site Link : https://laptop-gallary-2c921.web.app/
+# Client Side Github Link: https://github.com/ProgrammingHeroWC4/warehouse-management-client-side-Imamhossenjoni
+# Server Side Github Link : https://github.com/ProgrammingHeroWC4/warehouse-management-server-side-Imamhossenjoni
 # StackOverFlow Question Side Link: https://stackoverflow.com/questions/72243149/how-to-get-component-loaded-state-in-next-js
 
 - This is laptop gallary
