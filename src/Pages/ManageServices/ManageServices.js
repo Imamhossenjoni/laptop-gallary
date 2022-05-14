@@ -8,7 +8,7 @@ const ManageServices = () => {
     const handleDelete = id => {
         const proceed = window.confirm('Are you sure .?');
         if (proceed) {
-            const url = `http://localhost:4001/laptops/${id}`;
+            const url = `https://sheltered-thicket-84216.herokuapp.com/laptops/${id}`;
             fetch(url, {
                 method: 'DELETE',
             })

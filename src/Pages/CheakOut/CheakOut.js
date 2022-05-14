@@ -22,7 +22,7 @@ const CheakOut = () => {
             address: event.target.address.value,
             phone: event.target.phone.value
         }
-        axios.post('http://localhost:4001/order', order)
+        axios.post('https://sheltered-thicket-84216.herokuapp.com/order', order)
             .then(response => {
                 console.log(response);
                 const { data } = response;

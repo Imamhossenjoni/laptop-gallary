@@ -13,7 +13,7 @@ const Order = () => {
     const handleDelete = id => {
         const proceed = window.confirm('Are you sure .?');
         if (proceed) {
-            const url = `http://localhost:4001/order/${id}`;
+            const url = `https://sheltered-thicket-84216.herokuapp.com/order/${id}`;
             fetch(url, {
                 method: 'DELETE',
             })
@@ -29,7 +29,7 @@ const Order = () => {
     useEffect(() => {
         const getOrders = async () => {
             const email = user?.email;
-            const url = `http://localhost:4001/order?email=${email}`;
+            const url = `https://sheltered-thicket-84216.herokuapp.com/order?email=${email}`;
             const { data } = await axios.get(url);
             setOrders(data)
         }
