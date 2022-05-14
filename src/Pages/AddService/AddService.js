@@ -24,7 +24,7 @@ const AddService = () => {
         <input className='mb-2' placeholder='Price'  type="number" {...register("price") } />
         <input className='mb-2' placeholder='Quantity'  type="number" {...register("quantity") } />
         <input className='mb-2' placeholder='PhotoURL'  type="text" {...register("Img") } />
-        <input type='submit' value="Add Service" />
+        {/* <input type='submit' value="Add Service" /> */}
       </form>
     </div>
   );
