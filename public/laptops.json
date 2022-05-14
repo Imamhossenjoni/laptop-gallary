@@ -46,5 +46,29 @@
         "price":52500,
         "quantity":35,
         "supplier_name":"Amazon"
+    },
+    {
+        "name":"HP 15s-eq1548AU ",
+        "img":"https://i.ibb.co/WFg89Hj/15s-du1087tu-01-228x228.jpg",
+        "discription":"The HP 15s-eq1548AU Laptop is powered by the AMD Athlon Silver 3050U (2.3 GHz up to 3.2GHz) Processor and 8 GB DDR4-2400 MHz RAM. The AMD Athlon Silver 3050U is a mobile processor for thin and light entry-level laptops. This laptop comes with a 256 GB PCIe NVMe M.2 SSD.",
+        "price":76990,
+        "quantity":30,
+        "supplier_name":"Amazon"
+    },
+    {
+        "name":"Asus Vivobook X515MA Celeron",
+        "img":"https://i.ibb.co/gDH55yw/one-14-z2-493-01-228x228.jpg",
+        "discription":"It features an HP True Vision 720p HD camera with integrated dual array digital microphones. It has dual speakers. The HP 15s-eq1548AU has been designed with 1 SuperSpeed USB Type-C 5Gbps signaling rate; 2 SuperSpeed USB Type-A 5Gbps signaling rate; 1 HDMI 1.4b; 1 RJ-45; 1 AC.",
+        "price":76990,
+        "quantity":30,
+        "supplier_name":"Amazon"
+    },
+    {
+        "name":"Dell Inspiron 15 3510 Intel Pentium Silver N5030",
+        "img":"https://i.ibb.co/GWyS5TG/vivobook-15-x515ea-01-228x228.jpg",
+        "discription":"This laptop comes with a 256 GB PCIe NVMe M.2 SSD. It comes with integrated AMD Radeon Graphics and has a 15.6 diagonal, FHD (1920 x 1080), micro-edge, anti-glare, 220 nits, 45% NTSC. It runs on Windows 11 Home operating system.",
+        "price":76990,
+        "quantity":30,
+        "supplier_name":"Amazon"
     }
 ]
