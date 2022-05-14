@@ -22,6 +22,7 @@ const Register = () => {
     if(user){
         navigate('/home');
     }
+    //loading with spinner
     if (loading) {
         return <div className='container mt-3 text-center'>
             <div className='spinner-border text-primary'></div>
