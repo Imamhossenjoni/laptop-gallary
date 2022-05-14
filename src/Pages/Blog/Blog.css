@@ -1,15 +1,17 @@
-.products-container{
+.blog-container{
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    gap: 20px;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
 }
 @media screen and (max-width:576px){
-    .products-container{
+    .blog-container{
         grid-template-columns: repeat(1,1fr)
     }  
 }
 @media screen and (min-width:577px)and (max-width:768px) {
-    .products-container{
+    .blog-container{
         grid-template-columns: repeat(2,1fr);
     }
     

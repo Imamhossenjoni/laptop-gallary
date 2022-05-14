@@ -1,16 +1,17 @@
 import React from 'react';
-import Login from '../Authentication/Login/Login';
-import Header from '../Header/Header';
-import Product from '../Product/Product';
 import Products from '../Products/Products';
+import Bannner from '../Banner/Bannner'
+import CommentArea from '../CommentArea/CommentArea';
+import Thanks from '../Thanks/Thanks';
 
 const Home = () => {
     return (
         <div>
-            <Header></Header>
+            <Bannner></Bannner>
             <Products></Products>
+            <CommentArea></CommentArea>
+            <Thanks></Thanks>
         </div>
     );
 };
-
 export default Home;

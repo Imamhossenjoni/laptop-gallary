@@ -22,6 +22,7 @@ const AddService = () => {
         <input className='mb-2' placeholder='Name'   {...register("name", { required: true, maxLength: 20 })} />
         <textarea className='mb-2' placeholder='Description'  {...register("discription")} />
         <input className='mb-2' placeholder='Price'  type="number" {...register("price") } />
+        <input className='mb-2' placeholder='Quantity'  type="number" {...register("quantity") } />
         <input className='mb-2' placeholder='PhotoURL'  type="text" {...register("Img") } />
         <input type='submit' value="Add Service" />
       </form>
