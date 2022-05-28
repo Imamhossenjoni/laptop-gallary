@@ -9,7 +9,7 @@ const ProductDetails = () => {
     console.log(productId)
     const [product] = useProductDetails(productId);
     const handleDelivared=()=>{
-    
+        
         const quantity=(product.quantity)-1;
         const updatedQuantity={quantity};
         //send data from client to server
